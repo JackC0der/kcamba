@@ -98,7 +98,7 @@ section span {
 
 .servico {
     width: 23%;
-    height: 65%;
+    height: 72%;
     background-color: rgb(215, 215, 215);
     z-index: 1;
     margin-top: 5%;
@@ -124,19 +124,19 @@ section span {
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: center;
     width: 60%;
-    margin-left: 17%;
-    margin-top: 7%;
+    margin-left: 20%;
+    margin-top: 2%;
 }
 
 #transp {
     font-size: 26px;
-    width: 28%;
+    width: 31%;
     margin-left: 33.5%;
 }
 
 #aluguel {
     font-size: 26px;
-    width: 60px;
+    width: 23%;
     margin-left: 39%;
 }
 
@@ -169,21 +169,25 @@ section span {
 }
 
 .little {
-	font-size: 22px;
+    font-size: 22px;
+    color: rgb(147, 146, 146);
     width: 28%;
     height: 7%;
 	margin-left: 15%;
     border: solid 6px;
     border-color: rgb(147, 146, 146);
+    background-color: rgb(255, 255, 255);
 }
 
 .big {
 	font-size: 22px;
+    color: rgb(147, 146, 146);
 	width: 70%;
 	height: 30%;
 	margin-left: 15%;
 	border: solid 6px;
 	border-color: rgb(147, 146, 146);
+    background-color: rgb(255, 255, 255);
 }
 
 .little:focus, .big:focus {
@@ -193,7 +197,7 @@ section span {
 
 #another-itens {
     margin-right: 15%;
-	margin-top: -0.5%;
+	margin-top: -1.5%;
     float: right;
     width: 25%;
 	height: 30%;
