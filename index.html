@@ -12,7 +12,7 @@
                 <img src="IMG/Logo.png" id="logotipo">
                 <ul>
                     <li><a href="#CONTATO-SEC" class="link-top nav-button" id="CONTATO">CONTATO</a></li>
-                    <li><a href="#SERVICOS-SEC" class="link-top nav-button" id="SERVICOS">SERVICOS</a></li>
+                    <li><a href="#SERVICOS-SEC" class="link-top nav-button" id="SERVICOS">SERVIÇOS</a></li>
                     <li><a href="#INICIO-SEC" class="link-top nav-button" id="INICIO">INICIO</a></li>
                 </ul>
             </nav>
@@ -21,7 +21,7 @@
         <img class="banner" src="IMG/Estrada.jpg" />
         <section class="sec" id="SERVICOS-SECC">
             <div id="SERVICOS-SEC"></div>
-			<span class="underline-black" id="aaa">SERVICOS</span>
+			<span class="underline-black" id="aaa">SERVIÇOS</span>
             <div>
                 <div class="servico" id="serv">
                     <img src="IMG/SJC.jpg" class="back-servico">
@@ -40,24 +40,24 @@
         <section class="sec" id="CONTATO-SECC">
             <div id="CONTATO-SEC"></div>
             <span class="underline-black">CONTATO</span>
-			<form action="sendMail.php" method="POST">
+			<div class="formulario">
 				<div id="another-itens">
 					<p class="endereco">Telefone:</p>
-					<p>999999999</p>
+					<p>(12) 98261-2885 / 3911-5944</p>
 					<p class="endereco">Cidade:</p>
-					<p>SJC</p>
-					<p class="endereco">Bairro:</p>
-					<p>SEI LA MANO</p>
+					<p>São José dos Campos</p>
+					<p class="endereco">Endereço:</p>
+					<p>Rua Benedito Fraga da Silva, 1115 - Bairro Galo Branco - CEP 12247-480</p>
 				</div>
-				<input type="text" name="nome" class="little" placeholder="Seu Nome">
+				<input type="text" id="nome" name="nome" class="little" placeholder="Seu Nome">
 				<br><br>
-				<input type="email" name="email" class="little" placeholder="Email">
+				<input type="email" id="email" name="email" class="little" placeholder="Email">
 				<br><br>
-				<input type="text" name="assunto" class="little" placeholder="Assunto">
+				<input type="text" id="assunto" name="assunto" class="little" placeholder="Assunto">
 				<br><br>
-				<textarea name="menssagem" class="big" placeholder="Texto"></textarea>
+				<textarea name="menssagem" id="menssagem" class="big" placeholder="Menssagem"></textarea>
                 <br><br>
-                <input id="send" type='submit' name='Submit' value='enviar' />
+                <button id="send" onclick="enviarEmail(); return false" name='Submit' />ENVIAR</button>
 			</form>
         </section>
 		<div id="footer">
